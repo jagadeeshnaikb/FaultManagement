@@ -87,6 +87,9 @@ public class EmployeeService {
 	
 	public boolean deleteEmployee(Employee employee)
 	{
+		
+		System.out.println("EmployeeService.deleteEmployee()");
+		
 		boolean status = false;
 		Optional<EmployeeTable> emp= employeeRepository.findById(employee.getId());
 		if(emp.isPresent())
