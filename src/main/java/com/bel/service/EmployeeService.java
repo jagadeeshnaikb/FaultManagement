@@ -106,6 +106,8 @@ public class EmployeeService {
 	
 	public boolean deleteEmployee(int empId)
 	{
+		System.out.println("EmployeeService.deleteEmployee()");
+		
 		Employee employee = new Employee();
 		employee.setId(empId);
 		boolean status = deleteEmployee(employee);
