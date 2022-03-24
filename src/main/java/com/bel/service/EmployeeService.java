@@ -12,6 +12,14 @@ import com.bel.beans.Employee;
 import com.bel.dao.EmployeeRepository;
 import com.bel.entity.EmployeeTable;
 
+/**
+ * 
+ * 
+ * @author JAGADEESH
+ * Employee Service class
+ *
+ */
+
 @Service
 public class EmployeeService {
 	
