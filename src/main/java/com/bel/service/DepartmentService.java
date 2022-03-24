@@ -22,6 +22,8 @@ public class DepartmentService {
 
 	public Department addDepartment(Department department)
 	{
+		System.out.println("DepartmentService.addDepartment()");
+		
 		DepartmentTable departmentTable = new DepartmentTable();
 		departmentTable.setName(department.getName());
 		departmentTable.setHod(department.getHod());
