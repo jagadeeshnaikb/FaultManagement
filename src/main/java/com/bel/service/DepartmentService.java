@@ -11,6 +11,13 @@ import com.bel.beans.Department;
 import com.bel.dao.DepartmentRepository;
 import com.bel.entity.DepartmentTable;
 
+/**
+ * 
+ * @author JAGADEESH Naik B
+ * Department Service
+ *
+ */
+
 @Service
 public class DepartmentService {
 
