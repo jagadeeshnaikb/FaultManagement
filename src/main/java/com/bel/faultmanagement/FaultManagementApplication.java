@@ -23,7 +23,8 @@ public class FaultManagementApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(FaultManagementApplication.class, args);
 		
-		System.out.println("FaultManagementApplication.main()");
+
+
 	}
 
 }
