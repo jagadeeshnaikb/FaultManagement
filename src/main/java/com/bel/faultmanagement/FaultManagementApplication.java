@@ -25,7 +25,7 @@ public class FaultManagementApplication {
 		
 		System.out.println("Source Code changed in Github");
 		
-		System.out.println("Building through Jenkinsfile")
+		System.out.println("Building through Jenkinsfile");
 	}
 
 }
